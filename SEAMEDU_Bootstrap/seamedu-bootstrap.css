@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* Gradient Buttons */
+.btn-gradient {
+    background: linear-gradient(to right, #ff0066, #8a00ff);
+    color: white;
+    border: none;
+}
+.btn-gradient:hover {
+    background: linear-gradient(to left, #ff0066, #8a00ff);
+}
+
+/* Partners Scroll */
+.images {
+    display: flex;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+}
+
+.images img {
+    width: 200px;
+    margin: 10px;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.div2 {
+    background: white;
+    color: black;
+}
+
+
+
+
